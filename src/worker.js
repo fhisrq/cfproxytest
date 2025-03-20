@@ -21,7 +21,7 @@ addEventListener('fetch', event => {
       // 解析原始请求的 URL，并修改其 hostname 为目标域名
       const url = new URL(request.url)
       // 请替换为你要代理的目标 WebSocket 服务的域名
-      url.hostname = 'demo.piesocket.com'
+      url.hostname = 'echo.websocket.org'
   
       // 构造新的 Request 对象，保持原始请求的所有信息
       const newRequest = new Request(url.toString(), request)
