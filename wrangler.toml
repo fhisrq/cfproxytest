@@ -1,4 +1,4 @@
-name = "my-ws-proxy"  
+name = "test"  
 main = "src/worker.js"
 compatibility_date = "2024-05-20"
 workers_dev = true    # 关键配置：启用dev域名
