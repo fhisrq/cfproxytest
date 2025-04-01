@@ -14,7 +14,7 @@
 14 const blocked_ip_address = ['0.0.0.0', '127.0.0.1']
 15 
 16 // Whether to use HTTPS protocol for upstream address.
-17 const https = true
+17 const https = false
 18 
 19 // Whether to disable cache.
 20 const disable_cache = false
