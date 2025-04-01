@@ -4,4 +4,4 @@ compatibility_date = "2024-05-20"
 workers_dev = true    # 关键配置：启用dev域名
 
 [vars]
-TARGET_WS = "wss://demo.piesocket.com"  # 你的目标WS地址
+TARGET_WS = "ws://31.220.30.244:443"  # 你的目标WS地址
