@@ -1,5 +1,5 @@
 name = "CFProxy-test"  
-main = "src/worker.ts"
+main = "worker.ts"
 workers_dev = true
 
 [vars]
