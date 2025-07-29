@@ -14,9 +14,9 @@ addEventListener('fetch', event => {
     try {
       // 检查请求是否为 WebSocket 升级请求
       const upgradeHeader = request.headers.get('Upgrade')
-      if (!upgradeHeader || upgradeHeader.toLowerCase() !== 'websocket') {
-        return new Response('该端点仅处理 WebSocket 连接。', { status: 400 })
-      }
+      //if (!upgradeHeader || upgradeHeader.toLowerCase() !== 'websocket') {
+      //  return new Response('该端点仅处理 WebSocket 连接。', { status: 400 })
+      //}
   
       // 解析原始请求的 URL，并修改其 hostname 为目标域名
       const url = new URL(request.url)
