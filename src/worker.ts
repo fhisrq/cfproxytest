@@ -44,9 +44,9 @@ export default {
     try {
       // 检查是否为WebSocket升级请求
       const upgradeHeader = request.headers.get('Upgrade');
-      if (!upgradeHeader || upgradeHeader.toLowerCase() !== 'websocket') {
-        return new Response('该端点仅处理 WebSocket 连接。', { status: 400 });
-      }
+      // if (!upgradeHeader || upgradeHeader.toLowerCase() !== 'websocket') {
+      //   return new Response('该端点仅处理 WebSocket 连接。', { status: 400 });
+      // }
 
       // 解析请求URL并替换目标主机
       const url = new URL(request.url);
