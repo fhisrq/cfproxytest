@@ -1,6 +1,4 @@
 name = "cfproxytest"  
 main = "worker.ts"
+compatibility_date = "2025-07-29"
 workers_dev = true
-
-[vars]
-ENDPOINT_HOST = "echo.websocket.org" 
