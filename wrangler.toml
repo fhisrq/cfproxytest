@@ -1,4 +1,4 @@
-name = "CFProxy-test"  
+name = "cfproxytest"  
 main = "worker.ts"
 workers_dev = true
 
